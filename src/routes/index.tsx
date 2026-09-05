@@ -298,7 +298,7 @@ function Index() {
                     <MessageCircle className="size-4" /> WhatsApp Us
                   </a>
                 </Button>
-                <Button asChild size="lg" variant="outline" className="gap-2 bg-background">
+                <Button asChild size="lg" variant="outline" className="gap-2 bg-background text-foreground hover:bg-surface">
                   <a href="#booking">
                     <FileText className="size-4" /> Request a Quote
                   </a>
@@ -566,7 +566,7 @@ function Index() {
               <p className="text-sm opacity-90">Call or WhatsApp us now for fast support.</p>
             </div>
             <div className="flex flex-wrap justify-center gap-3">
-              <Button asChild size="lg" variant="outline" className="gap-2 bg-background">
+              <Button asChild size="lg" variant="outline" className="gap-2 bg-background text-foreground hover:bg-surface">
                 <a href={`tel:${PHONE_TEL}`}>
                   <Phone className="size-4" /> {PHONE_DISPLAY}
                 </a>
